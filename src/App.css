@@ -19,7 +19,7 @@
 .App-header {
   background-color: #282c34;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -27,13 +27,25 @@
 }
 
 .App-section {
-  flex: 1 1 0;
+  display: flex;
   background-color: hsl(220deg 13% 13%);
   color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.highlight {
+  color: red;
+}
+
+.content {
+  border: 1px solid white;
 }
 
 @keyframes App-logo-spin {
